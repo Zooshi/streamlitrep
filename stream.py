@@ -11,7 +11,7 @@ page = menu_items[menu_selection]
 
 
 data = pd.DataFrame({
-    "Name": ["Alice", "Bob", "Charlie", "David", "Emily", "Frank"],
+    "Name": ["Daniel", "Bob", "Charlie", "David", "Emily", "Frank"],
     "Age": [25, 32, 18, 47, 22, 36],
     "Gender": ["F", "M", "M", "M", "F", "M"]
 
