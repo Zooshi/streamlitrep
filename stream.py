@@ -17,8 +17,8 @@ data = pd.DataFrame({
 
 })
 
-min_age = st.sidebar.slider("Minimum age", min_value=0, max_value=100, value=0)
-filtered_data = data[data["Age"]>=min_age]
+age = st.sidebar.slider("Minimum age", min_value=0, max_value=100, value=0)
+filtered_data = data[data["Age"]>=min]
 
 st.title("Streamlit Example App")
 if page == "/data":
