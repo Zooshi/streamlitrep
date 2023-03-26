@@ -29,7 +29,7 @@ else:
     st.write(data)
 
 if "counter" not in st.session_state:
-    st.session_state.counter = 10
+    st.session_state.counter = 100
 st.write(f"Counter: {st.session_state.counter}")
 
 if st.button("increment"):
