@@ -29,7 +29,9 @@ else:
     st.write(data)
 
 if "counter" not in st.session_state:
-    st.session_state.counter = 350000000
+
+    st.session_state.counter = 330000000
+
 st.write(f"Counter: {st.session_state.counter}")
 
 if st.button("increment"):
